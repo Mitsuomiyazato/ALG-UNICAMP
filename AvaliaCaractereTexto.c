@@ -89,6 +89,7 @@ int main(){
     
     inicializaVet(vetor);
 
+    printf("Digite ou cole o texto (NO FINAL, COLOQUE 'FIM' PARA AVALIAR O TEXTO)\n");
     readText(texto);
 
     while(avaliacaoFim(texto) != 0)
