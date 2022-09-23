@@ -3,6 +3,7 @@
 int main(){
 int num;
 
+printf("Digite um número:\n");
 scanf("%d", &num);
 
 if(num % 2 == 0)
